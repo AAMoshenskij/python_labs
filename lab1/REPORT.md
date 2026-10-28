@@ -25,7 +25,10 @@
 
 ## Команды проверки
 
+Из корня репозитория `python_labs`. Теги сдачи: `lab-1-stage-a` (промежуточный) и `lab-1` (итоговый).
+
 ```powershell
+cd lab1
 pip install -e ".[dev]"
 pytest
 mypy
